@@ -1,0 +1,43 @@
+BCSymbolMap Version: 2.0
+_$S5icons16AddTradeCategoryC04drawB05frameySo6CGRectV_tFZfA_
+_$S5icons16AddTradeCategoryC04drawB05frameySo6CGRectV_tFZTo
+_$S5icons16AddTradeCategoryCACycfcTo
+_$S5icons16AddTradeCategoryC04drawB05frameySo6CGRectV_tFZTf4nd_n
+_$S5iconsMXM
+_$S5icons16AddTradeCategoryCML
+_$S5icons16AddTradeCategoryCMf
+_symbolic ____ 5icons16AddTradeCategoryC
+_symbolic So8NSObjectC
+_$S5icons16AddTradeCategoryCMF
+__swift_FORCE_LOAD_$_swiftUIKit_$_icons
+__swift_FORCE_LOAD_$_swiftFoundation_$_icons
+__swift_FORCE_LOAD_$_swiftDarwin_$_icons
+__swift_FORCE_LOAD_$_swiftObjectiveC_$_icons
+__swift_FORCE_LOAD_$_swiftCoreFoundation_$_icons
+__swift_FORCE_LOAD_$_swiftDispatch_$_icons
+__swift_FORCE_LOAD_$_swiftCoreGraphics_$_icons
+__swift_FORCE_LOAD_$_swiftCoreImage_$_icons
+__swift_FORCE_LOAD_$_swiftMetal_$_icons
+__swift_FORCE_LOAD_$_swiftQuartzCore_$_icons
+_$Ss23_ContiguousArrayStorageCy12CoreGraphics7CGFloatVGML
+___swift_reflection_version
+_objc_classes
+Apple LLVM version 10.0.0 (clang-1000.11.45.1)
+-emit-bc /Users/user/Code/swift_project/icons/icons/AddTradeCategory.swift -emit-module-path /Users/user/Library/Developer/Xcode/DerivedData/icons-gsbybjbdrweqmgepsysmsukjbalb/Build/Intermediates.noindex/ArchiveIntermediates/icons/IntermediateBuildFilesPath/icons.build/Release-iphoneos/icons.build/Objects-normal/arm64/icons.swiftmodule -emit-module-doc-path /Users/user/Library/Developer/Xcode/DerivedData/icons-gsbybjbdrweqmgepsysmsukjbalb/Build/Intermediates.noindex/ArchiveIntermediates/icons/IntermediateBuildFilesPath/icons.build/Release-iphoneos/icons.build/Objects-normal/arm64/icons.swiftdoc -serialize-diagnostics-path /Users/user/Library/Developer/Xcode/DerivedData/icons-gsbybjbdrweqmgepsysmsukjbalb/Build/Intermediates.noindex/ArchiveIntermediates/icons/IntermediateBuildFilesPath/icons.build/Release-iphoneos/icons.build/Objects-normal/arm64/icons-master.dia -emit-objc-header-path /Users/user/Library/Developer/Xcode/DerivedData/icons-gsbybjbdrweqmgepsysmsukjbalb/Build/Intermediates.noindex/ArchiveIntermediates/icons/IntermediateBuildFilesPath/icons.build/Release-iphoneos/icons.build/Objects-normal/arm64/icons-Swift.h -emit-dependencies-path /Users/user/Library/Developer/Xcode/DerivedData/icons-gsbybjbdrweqmgepsysmsukjbalb/Build/Intermediates.noindex/ArchiveIntermediates/icons/IntermediateBuildFilesPath/icons.build/Release-iphoneos/icons.build/Objects-normal/arm64/icons-master.d -target arm64-apple-ios12.1 -Xllvm -aarch64-use-tbi -enable-objc-interop -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -I /Users/user/Library/Developer/Xcode/DerivedData/icons-gsbybjbdrweqmgepsysmsukjbalb/Build/Intermediates.noindex/ArchiveIntermediates/icons/BuildProductsPath/Release-iphoneos -F /Users/user/Library/Developer/Xcode/DerivedData/icons-gsbybjbdrweqmgepsysmsukjbalb/Build/Intermediates.noindex/ArchiveIntermediates/icons/BuildProductsPath/Release-iphoneos -g -import-underlying-module -module-cache-path /Users/user/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -swift-version 4.2 -O -serialize-debugging-options -Xcc -I/Users/user/Library/Developer/Xcode/DerivedData/icons-gsbybjbdrweqmgepsysmsukjbalb/Build/Intermediates.noindex/ArchiveIntermediates/icons/IntermediateBuildFilesPath/icons.build/Release-iphoneos/icons.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/user/Library/Developer/Xcode/DerivedData/icons-gsbybjbdrweqmgepsysmsukjbalb/Build/Intermediates.noindex/ArchiveIntermediates/icons/IntermediateBuildFilesPath/icons.build/Release-iphoneos/icons.build/icons-generated-files.hmap -Xcc -I/Users/user/Library/Developer/Xcode/DerivedData/icons-gsbybjbdrweqmgepsysmsukjbalb/Build/Intermediates.noindex/ArchiveIntermediates/icons/IntermediateBuildFilesPath/icons.build/Release-iphoneos/icons.build/icons-own-target-headers.hmap -Xcc -I/Users/user/Library/Developer/Xcode/DerivedData/icons-gsbybjbdrweqmgepsysmsukjbalb/Build/Intermediates.noindex/ArchiveIntermediates/icons/IntermediateBuildFilesPath/icons.build/Release-iphoneos/icons.build/icons-all-non-framework-target-headers.hmap -Xcc -ivfsoverlay -Xcc /Users/user/Library/Developer/Xcode/DerivedData/icons-gsbybjbdrweqmgepsysmsukjbalb/Build/Intermediates.noindex/ArchiveIntermediates/icons/IntermediateBuildFilesPath/icons.build/Release-iphoneos/icons.build/all-product-headers.yaml -Xcc -iquote -Xcc /Users/user/Library/Developer/Xcode/DerivedData/icons-gsbybjbdrweqmgepsysmsukjbalb/Build/Intermediates.noindex/ArchiveIntermediates/icons/IntermediateBuildFilesPath/icons.build/Release-iphoneos/icons.build/icons-project-headers.hmap -Xcc -I/Users/user/Library/Developer/Xcode/DerivedData/icons-gsbybjbdrweqmgepsysmsukjbalb/Build/Intermediates.noindex/ArchiveIntermediates/icons/BuildProductsPath/Release-iphoneos/include -Xcc -I/Users/user/Library/Developer/Xcode/DerivedData/icons-gsbybjbdrweqmgepsysmsukjbalb/Build/Intermediates.noindex/ArchiveIntermediates/icons/IntermediateBuildFilesPath/icons.build/Release-iphoneos/icons.build/DerivedSources/arm64 -Xcc -I/Users/user/Library/Developer/Xcode/DerivedData/icons-gsbybjbdrweqmgepsysmsukjbalb/Build/Intermediates.noindex/ArchiveIntermediates/icons/IntermediateBuildFilesPath/icons.build/Release-iphoneos/icons.build/DerivedSources -Xcc -ivfsoverlay -Xcc /Users/user/Library/Developer/Xcode/DerivedData/icons-gsbybjbdrweqmgepsysmsukjbalb/Build/Intermediates.noindex/ArchiveIntermediates/icons/IntermediateBuildFilesPath/icons.build/Release-iphoneos/icons.build/unextended-module-overlay.yaml -Xcc -working-directory/Users/user/Code/swift_project/icons -parse-as-library -module-name icons -num-threads 4 -o /Users/user/Library/Developer/Xcode/DerivedData/icons-gsbybjbdrweqmgepsysmsukjbalb/Build/Intermediates.noindex/ArchiveIntermediates/icons/IntermediateBuildFilesPath/icons.build/Release-iphoneos/icons.build/Objects-normal/arm64/AddTradeCategory.bc -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift
+<swift-imported-modules>
+/Users/user/Code/swift_project/icons
+Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)
+/Users/user/Code/swift_project/icons/icons/AddTradeCategory.swift
+$S5icons16AddTradeCategoryCMa
+<compiler-generated>
+drawAdd
+AddTradeCategory.swift
+/Users/user/Code/swift_project/icons/icons
+init
+_allocateUninitializedArray
+$SSa13_adoptStorage_5countSayxG_SpyxGts016_ContiguousArrayB0CyxGn_SitFZ12CoreGraphics7CGFloatV_Tg5
+$Ss23_ContiguousArrayStorageCy12CoreGraphics7CGFloatVGMa
+deinit
+$S5icons16AddTradeCategoryC04drawB05frameySo6CGRectV_tFZfA_
+Apple LLVM version 10.0.0 (clang-1000.11.45.5)
+/Users/user/Library/Developer/Xcode/DerivedData/icons-gsbybjbdrweqmgepsysmsukjbalb/Build/Intermediates.noindex/ArchiveIntermediates/icons/IntermediateBuildFilesPath/icons.build/Release-iphoneos/icons.build/DerivedSources/icons_vers.c

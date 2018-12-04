@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		CE150F0821B66CC100577845 /* icons.h in Headers */ = {isa = PBXBuildFile; fileRef = CE150F0621B66CC100577845 /* icons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE150F0F21B66CEF00577845 /* AddTradeCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE150F0E21B66CEF00577845 /* AddTradeCategory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE150F0321B66CC100577845 /* icons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = icons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE150F0621B66CC100577845 /* icons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = icons.h; sourceTree = "<group>"; };
 		CE150F0721B66CC100577845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE150F0E21B66CEF00577845 /* AddTradeCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTradeCategory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 			children = (
 				CE150F0621B66CC100577845 /* icons.h */,
 				CE150F0721B66CC100577845 /* Info.plist */,
+				CE150F0E21B66CEF00577845 /* AddTradeCategory.swift */,
 			);
 			path = icons;
 			sourceTree = "<group>";
@@ -95,6 +98,7 @@
 				TargetAttributes = {
 					CE150F0221B66CC100577845 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -130,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE150F0F21B66CEF00577845 /* AddTradeCategory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +266,7 @@
 		CE150F0C21B66CC100577845 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -278,6 +284,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.devman.icons;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -286,6 +293,7 @@
 		CE150F0D21B66CC100577845 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;

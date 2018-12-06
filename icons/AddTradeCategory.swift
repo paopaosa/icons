@@ -23,8 +23,6 @@ public class AddTradeCategory : NSObject {
         //// General Declarations
         let context = UIGraphicsGetCurrentContext()!
 
-        //// Color Declarations
-        let fillColor2 = UIColor(red: 0.733, green: 0.647, blue: 0.439, alpha: 1.000)
 
         //// Variable Declarations
         let color = UIColor(red: red / 255.0, green: green / 255.0, blue: blue / 255.0, alpha: alpha / 255.0)
@@ -74,7 +72,7 @@ public class AddTradeCategory : NSObject {
         bezier3Path.addLine(to: CGPoint(x: frame.minX + 0.51978 * frame.width, y: frame.minY + 0.49451 * frame.height))
         bezier3Path.close()
         bezier3Path.usesEvenOddFillRule = true
-        fillColor2.setFill()
+        color.setFill()
         bezier3Path.fill()
     }
 

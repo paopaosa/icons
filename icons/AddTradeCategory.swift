@@ -20,6 +20,12 @@ public class AddTradeCategory : NSObject {
     private struct Cache {
         static var imageOfHomeNor: UIImage?
         static var homeNorTargets: [AnyObject]?
+        static var imageOfMarketNor: UIImage?
+        static var marketNorTargets: [AnyObject]?
+        static var imageOfMeNor: UIImage?
+        static var meNorTargets: [AnyObject]?
+        static var imageOfInviteNor: UIImage?
+        static var inviteNorTargets: [AnyObject]?
     }
 
     //// Drawing Methods
@@ -413,6 +419,48 @@ public class AddTradeCategory : NSObject {
         return Cache.imageOfHomeNor!
     }
 
+    @objc dynamic public class var imageOfMarketNor: UIImage {
+        if Cache.imageOfMarketNor != nil {
+            return Cache.imageOfMarketNor!
+        }
+
+        UIGraphicsBeginImageContextWithOptions(CGSize(width: 24, height: 24), false, 0)
+            AddTradeCategory.drawMarketNor()
+
+        Cache.imageOfMarketNor = UIGraphicsGetImageFromCurrentImageContext()!
+        UIGraphicsEndImageContext()
+
+        return Cache.imageOfMarketNor!
+    }
+
+    @objc dynamic public class var imageOfMeNor: UIImage {
+        if Cache.imageOfMeNor != nil {
+            return Cache.imageOfMeNor!
+        }
+
+        UIGraphicsBeginImageContextWithOptions(CGSize(width: 24, height: 24), false, 0)
+            AddTradeCategory.drawMeNor()
+
+        Cache.imageOfMeNor = UIGraphicsGetImageFromCurrentImageContext()!
+        UIGraphicsEndImageContext()
+
+        return Cache.imageOfMeNor!
+    }
+
+    @objc dynamic public class var imageOfInviteNor: UIImage {
+        if Cache.imageOfInviteNor != nil {
+            return Cache.imageOfInviteNor!
+        }
+
+        UIGraphicsBeginImageContextWithOptions(CGSize(width: 24, height: 24), false, 0)
+            AddTradeCategory.drawInviteNor()
+
+        Cache.imageOfInviteNor = UIGraphicsGetImageFromCurrentImageContext()!
+        UIGraphicsEndImageContext()
+
+        return Cache.imageOfInviteNor!
+    }
+
     //// Customization Infrastructure
 
     @objc @IBOutlet dynamic var homeNorTargets: [AnyObject]! {
@@ -421,6 +469,36 @@ public class AddTradeCategory : NSObject {
             Cache.homeNorTargets = newValue
             for target: AnyObject in newValue {
                 let _ = target.perform(NSSelectorFromString("setImage:"), with: AddTradeCategory.imageOfHomeNor)
+            }
+        }
+    }
+
+    @objc @IBOutlet dynamic var marketNorTargets: [AnyObject]! {
+        get { return Cache.marketNorTargets }
+        set {
+            Cache.marketNorTargets = newValue
+            for target: AnyObject in newValue {
+                let _ = target.perform(NSSelectorFromString("setImage:"), with: AddTradeCategory.imageOfMarketNor)
+            }
+        }
+    }
+
+    @objc @IBOutlet dynamic var meNorTargets: [AnyObject]! {
+        get { return Cache.meNorTargets }
+        set {
+            Cache.meNorTargets = newValue
+            for target: AnyObject in newValue {
+                let _ = target.perform(NSSelectorFromString("setImage:"), with: AddTradeCategory.imageOfMeNor)
+            }
+        }
+    }
+
+    @objc @IBOutlet dynamic var inviteNorTargets: [AnyObject]! {
+        get { return Cache.inviteNorTargets }
+        set {
+            Cache.inviteNorTargets = newValue
+            for target: AnyObject in newValue {
+                let _ = target.perform(NSSelectorFromString("setImage:"), with: AddTradeCategory.imageOfInviteNor)
             }
         }
     }
